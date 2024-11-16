@@ -1,0 +1,29 @@
+.goxc.local.json
+.DS_Store
+builds
+doit
+.vscode
+.idea/
+project.json
+.cover
+dist
+public
+docs/content
+*.swp
+*.swo
+cmd/doctl/doctl
+.env
+
+_vendor-*
+
+/out
+
+# Build artifacts
+Dockerfile-e
+
+# Snapcraft
+parts/
+prime/
+stage/
+doctl_v*.snap
+snap/.snapcraft/
